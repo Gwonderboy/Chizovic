@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chizovic International Academy</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome.css">
+</head>
+<body>
+	<section class="sub_header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav_links" id="navLinks">
+				<i class="fas fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fas fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Our Courses</h1>
+	</section>
+
+<!---------- Course ----------->
+<section class="course heading">
+	<h1>Courses We Offer</h1>
+	<p>We teach every subject a pupil or student needs, in order to standout amongst their peers in the society.</p>
+
+	<div class="row">
+		<div class="course_col">
+			<h3>Nursery Education</h3>
+			<p>Education is very important from the moment a child learns to make out sounds. We care for the little ones as our own and therefore handle them with care.</p>
+		</div>
+		<div class="course_col">
+			<h3>Primary Education</h3>
+			<p>Education is very important from the moment a child learns to make out sounds. We care for the little ones as our own and therefore handle them with care.</p>
+		</div>
+		<div class="course_col">
+			<h3>Secondary Education</h3>
+			<p>Education is very important from the moment a child learns to make out sounds. We care for the little ones as our own and therefore handle them with care.</p>
+		</div>
+	</div>
+</section>
+
+<!-------------- Facilities ------------------>
+<section class="facilities heading">
+	<h1>Our Facilities</h1>
+	<p>We've got wonderful facilities to aid your studies in our school.</p>
+
+	<div class="row">
+		<div class="facilities_col">
+			<img src="images/library.png">
+			<h3>World Class Library</h3>
+			<p>We teach every subject a pupil or student needs, in order to standout amongst their peers in the society.</p>
+		</div>
+		<div class="facilities_col">
+			<img src="images/basketball.png">
+			<h3>Largest Playground</h3>
+			<p>We teach every subject a pupil or student needs, in order to standout amongst their peers in the society.</p>
+		</div>
+		<div class="facilities_col">
+			<img src="images/cafeteria.png">
+			<h3>Tasty and Healthy Food</h3>
+			<p>We teach every subject a pupil or student needs, in order to standout amongst their peers in the society.</p>
+		</div>
+	</div>
+</section>
+
+
+<!------- Footer ---------->
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing
+		elit. Dolore, vero consectetur laborum eius tenetur 
+		voluptatum voluptate ratione. <br> Iusto debitis, consectetur 
+		ipsa a voluptatibus eaque culpa? Maiores 
+		deleniti fugiat pariatur aut.</p>
+	<div class="icons">
+		<i class="fab fa-facebook"></i>
+		<i class="fab fa-twitter"></i>
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-linkedin"></i>
+	</div>
+	<div>Design with <i class="fas fa-heart"></i> by Glorious | All Rights Reserved</div>
+</section>
+
+
+<!---------------- Javascript for Togglt Menu -------------------->
+<script>
+	var navLinks = document.getElementById('navLinks');
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+</body>
+</html>
